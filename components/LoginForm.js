@@ -66,7 +66,7 @@ export default class UselessTextInput extends Component {
         <UserInput value="Username" />
         <UserInput value="Password" />
         <Submit>
-          <RaisedTextButton title="Submit" color="tomato" />
+          <RaisedTextButton title="Submit" color="lightblue" />
         </Submit>
       </MommaDiv>
     );

@@ -1,6 +1,6 @@
 import React from "react";
 import { ScrollView, StyleSheet, Text } from "react-native";
-import { ExpoLinksView } from "@expo/samples";
+import LoginForm from "../components/LoginForm";
 
 export default class LinksScreen extends React.Component {
   static navigationOptions = {
@@ -11,7 +11,8 @@ export default class LinksScreen extends React.Component {
     return (
       <ScrollView style={styles.container}>
         <Text> yooooooo hoo!! </Text>
-        <ExpoLinksView />
+
+        <LoginForm />
       </ScrollView>
     );
   }

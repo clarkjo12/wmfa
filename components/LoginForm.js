@@ -15,24 +15,25 @@ const MommaDiv = styled.View`
 
 const UserInput = styled.TextInput`
   width: 50%;
-  border: 1px gray solid;
+  border: 1px solid;
+  border-color: rgba(100, 100, 100, 0.27);
+  border-radius: 3px;
   margin-top: 13px;
-  font-size: 20px;
-  padding: 2px;
-  padding-left: 4px;
+  font-size: 14px;
+  padding: 6px;
 `;
 
 const LogoText = styled.Image`
   height: 50px;
   width: 250px;
   margin-top: 18px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 `;
 
 const Logo = styled.Image`
   height: 125px;
   width: 125px;
-  margin-top: 40px;
+  margin-top: 90px;
 `;
 
 const LoginBelow = styled.View`

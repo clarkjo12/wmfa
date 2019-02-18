@@ -4,14 +4,12 @@ import LoginForm from "../components/LoginForm";
 
 export default class LinksScreen extends React.Component {
   static navigationOptions = {
-    title: "Links"
+    header: null
   };
 
   render() {
     return (
       <ScrollView style={styles.container}>
-        <Text> yooooooo hoo!! </Text>
-
         <LoginForm />
       </ScrollView>
     );
